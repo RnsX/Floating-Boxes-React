@@ -1,0 +1,35 @@
+.graph-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  min-width: 500px;
+  min-height: 500px;
+  border: 1px solid lightgray;
+}
+
+.track-field > h2 {
+  text-align: center;
+}
+
+/* CONTROL BUTTON FOMRATTING */
+
+.btn-bar {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.box-control {
+  padding: 0.5em;
+  background-color: rgb(111, 176, 206);
+  width: 100%;
+  margin: 0.5em;
+  text-align: center;
+  border-radius: 1em;
+  font-size: 15pt;
+  font-weight: 600;
+}
+.box-control:hover {
+  cursor: pointer;
+  background-color: rgb(147, 193, 214);
+}
